@@ -5,6 +5,7 @@ const dataSchema=require('./Model')
 const mongoose =require('mongoose');
 const dotenv=require('dotenv')
 const jwt=require('jsonwebtoken')
+const path=require('path')
 dotenv.config()
 app.use(cors())
 app.use(express.json())
@@ -52,5 +53,8 @@ app.put('/moveTasks/:para',async(req,res)=>{
 })
 if(process.env.NODE_ENV==='production'){
     app.use(express.static('frontend/build'))
+    app.get('*',(req,res)=>{
+        res.sendFile(path.resolve(__dirname,'frontend','build','index.html'))
+    })
 }
 
