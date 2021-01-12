@@ -333,7 +333,7 @@ const moveTo=async(event,c,i)=>{
 
 </div>
 }
-{/* { !flag &&
+{ !flag &&
 
 <>
   <div style={{paddingTop:'1vw',paddingLeft:'2vw',display:'inline-block'}}> <Button onClick={goBack} >Go Back</Button> </div>
@@ -464,12 +464,12 @@ const moveTo=async(event,c,i)=>{
 </Card>
 </div>
     )
-})} */}
+})} 
 
-{/* </div>
+</div>
 
 </>
-} */}
+ }
         </div>
     )
 }
