@@ -213,7 +213,7 @@ setTaskType(event.target.value)
 
  //component--------------- 
 function OnLogin(){
-    const [data,setData]=useState({boards:[]})
+    const [data,setData]=useState({boards:[{toDo:[{tName:'',tMembers:[]}]}]})
    const [flag, setFlag]=useState(true)
    const [index,setIndex]=useState()
   
