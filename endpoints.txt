@@ -7,5 +7,4 @@
 
 
 (ps: I was not able to include every functionality but I gave my best(in 2 days) )
-testing login credentials (email:avinash12797@gmail.com)
-                          (pass: 12345)
+
