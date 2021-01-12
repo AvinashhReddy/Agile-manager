@@ -333,7 +333,7 @@ const moveTo=async(event,c,i)=>{
 
 </div>
 }
-{ !flag &&
+{/* { !flag &&
 
 <>
   <div style={{paddingTop:'1vw',paddingLeft:'2vw',display:'inline-block'}}> <Button onClick={goBack} >Go Back</Button> </div>
@@ -344,7 +344,7 @@ const moveTo=async(event,c,i)=>{
       <MyVerticallyCenteredModal2
         show={modalShow}
         onHide={() => setModalShow(false)} index={index} data={data}/> </div>
-{/* 
+{ 
   <div style={{padding:'2vw',}}>
 <h3 style={{color:'#ff0000'}}>to do :</h3>
 
@@ -373,7 +373,7 @@ const moveTo=async(event,c,i)=>{
     )
 })}
 
-</div> */}
+</div> }
 
 
 <div style={{ padding:'2vw' }} >
@@ -464,12 +464,12 @@ const moveTo=async(event,c,i)=>{
 </Card>
 </div>
     )
-})}
+})} */}
 
-</div>
+{/* </div>
 
 </>
-}
+} */}
         </div>
     )
 }
