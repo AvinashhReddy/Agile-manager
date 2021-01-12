@@ -1,0 +1,9 @@
+'/getAll' - gives the data of all the users.
+'/getsome/<parameter>' - takes 'email' as a parameter and gives us the user with that email. (used in validating login when the user logins)
+'/getsomeWithName/<parameter>' - gives the data of an user with the specified name as a parameter
+'/addData' - A post request used to add data in database. primarily used during signup when the user first registers
+'/createBoard' - used to create new boards
+'/movetasks' - used to move tasks from one category to another
+
+
+(ps: I was not able to include every functionality but I gave my best(in 2 days) )
