@@ -38,7 +38,7 @@ function Login(){
     })
      }
      useEffect(()=>{
-    
+    localStorage.setItem('flag',true)
       localStorage.setItem('user',email)
       dispatch({type:''})
   })
